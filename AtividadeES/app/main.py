@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import uvicorn
 
-app = FastAPI(title="Minha API Simples-")
+app = FastAPI(title="Minha API Simples")
 
 class EchoIn(BaseModel):
     text: str
