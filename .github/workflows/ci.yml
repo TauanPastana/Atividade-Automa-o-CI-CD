@@ -10,7 +10,7 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_ID: ${{ github.repository }}
+  IMAGE_ID: ghcr.io/tauanpastana/automacao-eng-software
 
 jobs:
   build_and_push:
